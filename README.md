@@ -13,24 +13,43 @@ As a backup, the episode table on the Wikipedia entry for the respective show's 
 
 ## Data Format
 
-Data is stored for this site in JSON files using the following structure:
+Data is stored for this site in JSON files. Use this example from the as a reference if you're unsure how to structure it:
 ```
 [
     {
-        "date": (ISO-8601 formatted date),
-        "isNew": (`true` or `false`),
+        "date": "20211206T003500-0500",
+        "isNew": true,
         "guests": [
             {
-                "name": "Firstname Last",
-                "promo": "https://www.example.com/"
+                "name": "Michael J. Fox",
+                "promo": "https://www.goodreads.com/book/show/50403451-no-time-like-the-future"
             }
         ],
         "musicalGuests": [
             {
-                "name": "Firstname Last",
-                "promo": "https://www.example.com/"
+                "name": "Wizkid",
+                "promo": ""
             }
         ]
+    },
+    {
+        "date": "20211207T003500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Halle Berry",
+                "promo": "https://www.imdb.com/title/tt8310474/"
+            },
+            {
+                "name": "Chris Kattan",
+                "promo": "https://www.imdb.com/title/tt10054778/"
+            },
+            {
+                "name": "Rutger Bregman",
+                "promo": "https://www.goodreads.com/en/book/show/52879286"
+            }
+        ],
+        "musicalGuests": []
     }
 ]
 ```
@@ -45,9 +64,9 @@ To avoid favoring one provider over another (e.g. Amazon vs anything else, Apple
 
 ## Technical Details
 Dates are stored in ISO-8601 format in Eastern time (UTC−5). The commonly used formats for each program are:
-- Saturday Night Live: `**YYYYMMDD**T233500-0500`
-- Late Night with Seth Meyers: `**YYYYMMDD**T003500-0500`
-- The Tonight Show Starring Jimmy Fallon: `**YYYYMMDD**T233500-0500`
+- Saturday Night Live: **YYYYMMDD**T233500-0500
+- Late Night with Seth Meyers: **YYYYMMDD**T003500-0500
+- The Tonight Show Starring Jimmy Fallon: **YYYYMMDD**T233500-0500
 
 The morning after an episode airs, at 9AM eastern, the episode is removed from the JSON.
 
