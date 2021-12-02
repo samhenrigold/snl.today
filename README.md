@@ -64,9 +64,9 @@ To avoid favoring one provider over another (e.g. Amazon vs anything else, Apple
 
 ## Technical Details
 Dates are stored in ISO-8601 format in Eastern time (UTC−5). The commonly used formats for each program are:
-- Saturday Night Live: **YYYYMMDD**T233500-0500
-- Late Night with Seth Meyers: **YYYYMMDD**T003500-0500
-- The Tonight Show Starring Jimmy Fallon: **YYYYMMDD**T233500-0500
+- Saturday Night Live: `YYYYMMDDT233500-0500`
+- Late Night with Seth Meyers: `YYYYMMDDT003500-0500`
+- The Tonight Show Starring Jimmy Fallon: `YYYYMMDDT233500-0500`
 
 The morning after an episode airs, at 9AM eastern, the episode is removed from the JSON.
 
