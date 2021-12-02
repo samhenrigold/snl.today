@@ -14,7 +14,8 @@ As a backup, the episode table on the Wikipedia entry for the respective show's 
 ## Data Format
 
 Data is stored for this site in JSON files using the following structure:
-```[
+```
+[
     {
         "date": (ISO-8601 formatted date),
         "isNew": (`true` or `false`),
@@ -31,7 +32,8 @@ Data is stored for this site in JSON files using the following structure:
             }
         ]
     }
-]```
+]
+```
 
 ## Promo Links
 To avoid favoring one provider over another (e.g. Amazon vs anything else, Apple Music vs Spotify), links are best commercially neutral. The preferred links for common mediums are:
