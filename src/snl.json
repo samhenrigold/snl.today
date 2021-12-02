@@ -1,0 +1,34 @@
+[
+    {
+        "date": "20211211T233500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Billie Eilish",
+                "promo": "https://en.wikipedia.org/wiki/Happier_Than_Ever"
+            }
+        ],
+        "musicalGuest": [
+            {
+                "name": "Billie Eilish",
+                "promo": "https://en.wikipedia.org/wiki/Happier_Than_Ever"
+            }
+        ]
+    },
+    {
+        "date": "20211218T233500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Paul Rudd",
+                "promo": "https://www.imdb.com/title/tt4513678/"
+            }
+        ],
+        "musicalGuest": [
+            {
+                "name": "Charli XCX",
+                "promo": "https://en.wikipedia.org/wiki/Crash_(Charli_XCX_album)"
+            }
+        ]
+    }
+]

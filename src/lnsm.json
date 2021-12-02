@@ -1,0 +1,36 @@
+[
+    {
+        "date": "20211206T003500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Michael J. Fox",
+                "promo": "https://www.goodreads.com/book/show/50403451-no-time-like-the-future"
+            },
+            {
+                "name": "Kimberly Williams-Paisley & Ashley Williams",
+                "promo": "https://www.imdb.com/title/tt6540706/"
+            }
+        ],
+        "musicalGuests": []
+    },
+    {
+        "date": "20211207T003500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Halle Berry",
+                "promo": "https://www.imdb.com/title/tt8310474/"
+            },
+            {
+                "name": "Chris Kattan",
+                "promo": "https://www.imdb.com/title/tt10054778/"
+            },
+            {
+                "name": "Rutger Bregman",
+                "promo": "https://www.goodreads.com/en/book/show/52879286"
+            }
+        ],
+        "musicalGuests": []
+    }
+]

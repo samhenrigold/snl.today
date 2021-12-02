@@ -1,0 +1,42 @@
+[
+    {
+        "date": "20211206T233500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Jonah Hill",
+                "promo": ""
+            },
+            {
+                "name": "Tig Notaro",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Dan + Shay",
+                "promo": ""
+            }
+        ]
+    },
+    {
+        "date": "20211207T233500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Nicole Kidman",
+                "promo": "https://www.imdb.com/title/tt8310474/"
+            },
+            {
+                "name": "Chloë Grace Moretz",
+                "promo": "https://www.imdb.com/title/tt10054778/"
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Wizkid",
+                "promo": ""
+            }
+        ]
+    }
+]
