@@ -10,71 +10,78 @@
     <body>
         <article id="hero">
             {% set snlWhen = snl[0].date | relativeDate %}
-            {% if snlWhen == "tonight" %}
-                <h1>New SNL tonight</h1>
-            {% elseif snlWhen == "tomorrow" %}
-                <h1>New SNL tomorrow night</h1>
-            {% else %}
+            {% if (snlWhen !== "tonight") or (snlWhen !== "tomorrow") %}
                 <h1>No new SNL tonight</h1>
+            {% else %}
+                <h1>New SNL {{snlWhen}}</h1>
             {% endif %}
         </article>
         {% for show in [{"shortTitle": "snl", "longTitle": "Saturday Night Live", "data": snl, "url": "https://www.nbc.com/saturday-night-live"},{"shortTitle": "lnsm", "longTitle": "Late Night with Seth Meyers", "data": lnsm, "url": "https://www.nbc.com/late-night-with-seth-meyers"},{"shortTitle": "tsjf", "longTitle": "The Tonight Show with Jimmy Fallon", "data": tsjf, "url": "https://www.nbc.com/the-tonight-show"}] %}
             <article id="{{ show.shortTitle }}" aria-label="{{ show.longTitle }}">
-                <a href="{{show.url}}"><img src="/assets/{{ show.shortTitle }}_logo.svg" alt="The {{ show.longTitle }} logo"></a>
+                <a href="{{ show.url }}"><img src="/assets/{{ show.shortTitle }}_logo.svg" alt="The {{ show.longTitle }} logo"></a>
                 <h2>New episode
                     {{ show.data[0].date | relativeDate }}</h2>
                 {% for episode in show.data %}
-                {% if loop.first %}
-                    <details open>
-                {% else %}
-                    <details>
-                {% endif %}
-                        <summary>
-                            <h3>
-                                <time datetime="{{ episode.date }}">{{ episode.date | prettyDate }}</time>
-                            </h3>
-                        </summary>
-                        <section>
-                            {% if (episode.guests.length == 1) and (show.shortTitle == "snl") %}
-                                <h4>Host</h4>
-                            {% elseif (episode.guests.length > 1) and (show.shortTitle == "snl") %}
-                                <h4>Hosts</h4>
-                            {% elseif (episode.guests.length == 1) and (show.shortTitle != "snl") %}
-                                <h4>Guest</h4>
-                            {% else %}
-                                <h4>Guests</h4>
+                    {% if loop.first %}
+                        <details open>
+                        {% else %}
+                            <details>
                             {% endif %}
-                            <ul>
-                                {% for guest in episode.guests %}
-                                    <li>
-                                        <a href="{{ guest.promo }}">{{ guest.name }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </section>
-                        {% if episode.musicalGuests.length > 0 %}
-                        <section>
-                            {% if episode.musicalGuests.length == 1 %}
-                                <h4>Musical Guest</h4>
-                            {% else %}
-                                <h4>Musical Guests</h4>
+                            <summary>
+                                <h3>
+                                    <time datetime="{{ episode.date }}">{{ episode.date | prettyDate }}</time>
+                                </h3>
+                            </summary>
+                            <section>
+                                {# Plural grammar rules #}
+                                {% if (episode.guests.length == 1) and (show.shortTitle == "snl") %}
+                                    <h4>Host</h4>
+                                {% elseif (episode.guests.length > 1) and (show.shortTitle == "snl") %}
+                                    <h4>Hosts</h4>
+                                {% elseif (episode.guests.length == 1) and (show.shortTitle != "snl") %}
+                                    <h4>Guest</h4>
+                                {% else %}
+                                    <h4>Guests</h4>
+                                {% endif %}
+                                <ul>
+                                    {% for guest in episode.guests %}
+                                        <li>
+                                            {# If there's a link, wrap guest's name in an anchor. If not, don't. #}
+                                            {% if guest.promo %}
+                                                <a href="{{ guest.promo }}">{{ guest.name }}</a>
+                                            {% else %}
+                                                {{ guest.name }}
+                                            {% endif %}
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </section>
+                            {% if episode.musicalGuests.length > 0 %}
+                                <section>
+                                    {% if episode.musicalGuests.length == 1 %}
+                                        <h4>Musical Guest</h4>
+                                    {% else %}
+                                        <h4>Musical Guests</h4>
+                                    {% endif %}
+                                    <ul>
+                                        {% for musicalGuest in episode.musicalGuests %}
+                                            <li>
+                                                <a href="{{ musicalGuest.promo }}">{{ musicalGuest.name }}</a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </section>
                             {% endif %}
-                            <ul>
-                                {% for musicalGuest in episode.musicalGuests %}
-                                    <li>
-                                        <a href="{{ musicalGuest.promo }}">{{ musicalGuest.name }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        </section>
-                        {% endif %}
-                    </details>
-                {% endfor %}
-            </article>
-        {% endfor %}
-        <footer>
-            <p>Last updated {%buildTime%}. Is something out of date? Update it <a href="https://github.com/samhenrigold/snl.today">on GitHub</a>.</p>
-            <small id="sosumi">snl.today is not endorsed by, directly affiliated with, maintained, authorized, or sponsored by NBCUniversal. Saturday Night Live, Late Night with Seth Meyers, and The Tonight Show with Jimmy Fallon as well as related names, marks, emblems and images are registered trademarks of their respective owners.</small>
-        </footer>
+                        </details>
+                    {% endfor %}
+                </article>
+            {% endfor %}
+            <footer>
+                <p>Last updated
+                    {% buildTime %}. Is something out of date? Update it
+                    <a href="https://github.com/samhenrigold/snl.today">on GitHub</a>.</p>
+                <small id="sosumi">snl.today is not endorsed by, directly affiliated with, maintained, authorized, or sponsored by NBCUniversal. Saturday Night Live, Late Night with Seth Meyers, and The Tonight Show with Jimmy Fallon as well as related names, marks, emblems and images are registered trademarks of their respective owners.</small>
+            </footer>
+        </body>
     </body>
 </html>

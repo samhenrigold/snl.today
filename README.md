@@ -20,7 +20,7 @@ Data is stored for this site in JSON files. Use this example from the as a refer
 ```
 [
     {
-        "date": "20211206T003500-0500",
+        "date": "20211206T235900-05:00",
         "isNew": true,
         "guests": [
             {
@@ -36,7 +36,7 @@ Data is stored for this site in JSON files. Use this example from the as a refer
         ]
     },
     {
-        "date": "20211207T003500-0500",
+        "date": "20211207T235900-05:00",
         "isNew": true,
         "guests": [
             {
@@ -67,9 +67,11 @@ To avoid favoring one provider over another (e.g. Amazon vs anything else, Apple
 
 ## Technical Details
 Dates are stored in ISO-8601 format in Eastern time (UTC−5). The commonly used formats for each program are:
-- Saturday Night Live: `YYYYMMDDT233500-0500`
-- Late Night with Seth Meyers: `YYYYMMDDT003500-0500`
-- The Tonight Show Starring Jimmy Fallon: `YYYYMMDDT233500-0500`
+- Saturday Night Live: `YYYYMMDDT233500-05:00`
+- Late Night with Seth Meyers: `YYYYMMDDT235900-05:00`
+- The Tonight Show Starring Jimmy Fallon: `YYYYMMDDT233500-05:00`
+
+Since Late Night airs after midnight but the shows are listed as the previous day, use 23:59 (approximately 35 minutes before the airtime) as the Late Night date.
 
 ~~The morning after an episode airs, at 9AM eastern, the episode is removed from the JSON.~~ I don't know how to do that
 

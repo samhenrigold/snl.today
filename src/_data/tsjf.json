@@ -1,6 +1,6 @@
 [
     {
-        "date": "20211206T233500-0500",
+        "date": "20211206T233500-05:00",
         "isNew": true,
         "guests": [
             {
@@ -20,13 +20,9 @@
         ]
     },
     {
-        "date": "20211207T233500-0500",
+        "date": "20211207T233500-05:00",
         "isNew": true,
         "guests": [
-            {
-                "name": "Nicole Kidman",
-                "promo": "https://www.imdb.com/title/tt8310474/"
-            },
             {
                 "name": "Chloë Grace Moretz",
                 "promo": "https://www.imdb.com/title/tt10054778/"
@@ -40,7 +36,7 @@
         ]
     },
     {
-        "date": "20211208T233500-0500",
+        "date": "20211208T233500-05:00",
         "isNew": true,
         "guests": [
             {
@@ -49,7 +45,7 @@
             },
             {
                 "name": "Raanan Hershberg",
-                "promo": ""
+                "promo": "https://www.raananhershberg.com"
             }
         ],
         "musicalGuests": []
