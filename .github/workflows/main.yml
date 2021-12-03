@@ -10,5 +10,5 @@ jobs:
     steps:
       - name: POST to Build Hook
         env:
-          BUILD_KEY: ${{ secrets.NETLIFY_BUILD_KEY }}
-        run: curl -X POST -d {} https://api.netlify.com/build_hooks/$env:BUILD_KEY
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: curl -X POST -d {} $NETLIFY_BUILD_HOOK
