@@ -71,5 +71,5 @@ Dates are stored in ISO-8601 format in Eastern time (UTC−5). The commonly used
 - Late Night with Seth Meyers: `YYYYMMDDT003500-0500`
 - The Tonight Show Starring Jimmy Fallon: `YYYYMMDDT233500-0500`
 
-The morning after an episode airs, at 9AM eastern, the episode is removed from the JSON.
+~~The morning after an episode airs, at 9AM eastern, the episode is removed from the JSON.~~ I don't know how to do that
 
