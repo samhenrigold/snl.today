@@ -43,16 +43,6 @@ footer {
     margin: 2rem auto 1rem;
 }
 
-article h2::before {
-    content: "";
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    margin-bottom: 1rem;
-}
-
-#sosumi { color: #999; }
-
 #hero {
     background: black;
     font-size: 4em;
@@ -60,40 +50,24 @@ article h2::before {
     text-align: center;
 }
 
-#snl {
-    background-image: var(--tint), url('/assets/SNL_S44-Web-DynamicLead-Desktop-1920x1080.jpg');
-}
+#sosumi { color: #999; }
 
-#lnsm {
-    background-image: var(--tint), url('/assets/LNSM_S9-_Web-DynamicLead-Desktop-1920x1080.jpeg');
-}
+#snl { background-image: var(--tint), url('/assets/SNL_S44-Web-DynamicLead-Desktop-1920x1080.jpg'); }
 
-#tsjf {
-    background-image: var(--tint), url('/assets/TonightShow-2021-Web-DynamicLead-Desktop-1920x1080.jpg');
-}
+#lnsm { background-image: var(--tint), url('/assets/LNSM_S9-_Web-DynamicLead-Desktop-1920x1080.jpeg'); }
+
+#tsjf { background-image: var(--tint), url('/assets/TonightShow-2021-Web-DynamicLead-Desktop-1920x1080.jpg'); }
 
 article img {
     height: 72px;
     cursor: pointer;
 }
 
-article img:hover {
-    filter: invert(44%) sepia(71%) saturate(7498%) hue-rotate(210deg) brightness(100%) contrast(109%);
-}
+article img:hover { filter: invert(44%) sepia(71%) saturate(7498%) hue-rotate(210deg) brightness(100%) contrast(109%); }
 
 @media screen and (max-width: 543px) {
-    :root {
-        --tint: linear-gradient(rgb(0, 0, 0, .65), rgb(0, 0, 0, .65));
-    }
-
-    article {
-        padding: 2rem 1rem;
-    }
-
-    #tsjf {
-        background-image: var(--tint), url('/assets/TonightShow-2021-Web-DynamicLead-Mobile-1114x891.jpg');
-    }
-    #hero {
-        font-size: 3em;
-    }
+    :root { --tint: linear-gradient(rgb(0, 0, 0, .65), rgb(0, 0, 0, .65)); }
+    article { padding: 2rem 1rem; }
+    #tsjf { background-image: var(--tint), url('/assets/TonightShow-2021-Web-DynamicLead-Mobile-1114x891.jpg'); }
+    #hero { font-size: 3em; }
 }

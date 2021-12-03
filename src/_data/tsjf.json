@@ -38,5 +38,20 @@
                 "promo": ""
             }
         ]
+    },
+    {
+        "date": "20211208T233500-0500",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Nicole Kidman",
+                "promo": "https://www.imdb.com/title/tt4995540/"
+            },
+            {
+                "name": "Raanan Hershberg",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": []
     }
 ]
