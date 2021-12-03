@@ -8,7 +8,7 @@
                 "promo": "https://en.wikipedia.org/wiki/Happier_Than_Ever"
             }
         ],
-        "musicalGuest": [
+        "musicalGuests": [
             {
                 "name": "Billie Eilish",
                 "promo": "https://en.wikipedia.org/wiki/Happier_Than_Ever"
@@ -24,7 +24,7 @@
                 "promo": "https://www.imdb.com/title/tt4513678/"
             }
         ],
-        "musicalGuest": [
+        "musicalGuests": [
             {
                 "name": "Charli XCX",
                 "promo": "https://en.wikipedia.org/wiki/Crash_(Charli_XCX_album)"

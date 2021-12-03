@@ -1,0 +1,35 @@
+{
+  "name": "snl.today",
+  "version": "1.0.0",
+  "description": "## Data Sources The most reliable way to find upcoming guests is through the [NBCUniversal Media Village press release portal](https://www.nbcumv.com/mediavillage#/home): - [_Saturday Night Live_ on Media Village](https://www.nbcumv.com/mediavillage/interactive/2929fed4187b40648b79a9839e70e91fproduct169208/index.html#/show/e91b3cec-b121-41ae-ac5b-1725193c92dd/press-releases) - [_Late Night with Seth Meyers_ on Media Village](https://www.nbcumv.com/mediavillage/interactive/2929fed4187b40648b79a9839e70e91fproduct169208/index.html#/show/1a72eb63-bc15-42a3-84d3-f108c3cd9d80/press-releases) - [_The Tonight Show with Jimmy Fallon_ on Media Village](https://www.nbcumv.com/mediavillage/interactive/2929fed4187b40648b79a9839e70e91fproduct169208/index.html#/show/ef2b8417-a8f9-4d23-a3db-0616dd5eb096/press-releases)",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf _site",
+    "serve:webpack": "webpack --mode development --watch",
+    "serve:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "serve": "npm-run-all clean --parallel serve:*",
+    "build:webpack": "webpack --mode production",
+    "build:eleventy": "ELEVENTY_ENV=production eleventy",
+    "build": "run-s clean build:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samhenrigold/snl.today.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samhenrigold/snl.today/issues"
+  },
+  "homepage": "https://github.com/samhenrigold/snl.today#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  }
+}

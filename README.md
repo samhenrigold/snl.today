@@ -1,5 +1,8 @@
 # snl.today
 
+## Updating the data
+Thanks for helping contribute! If you find a bug, something looks wrong visually, or the data is out of date, you can create a pull request to propose changes. If you're not familiar with GitHub, you can learn more about creating one [here](https://www.youtube.com/watch?v=rgbCcBNZcdQ).
+
 ## Data Sources
 The most reliable way to find upcoming guests is through the [NBCUniversal Media Village press release portal](https://www.nbcumv.com/mediavillage#/home):
 - [_Saturday Night Live_ on Media Village](https://www.nbcumv.com/mediavillage/interactive/2929fed4187b40648b79a9839e70e91fproduct169208/index.html#/show/e91b3cec-b121-41ae-ac5b-1725193c92dd/press-releases)
