@@ -49,5 +49,49 @@
             }
         ],
         "musicalGuests": []
+    },
+    {
+        "date": "20211209T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Miley Cyrus",
+                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
+            },
+            {
+                "name": "Pete Davidson",
+                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
+            },
+            {
+                "name": "Yahya Abdul-Mateen II",
+                "promo": "https://www.imdb.com/title/tt10838180/"
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Miley Cyrus",
+                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
+            }
+        ]
+    },
+    {
+        "date": "20211210T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Dua Lipa",
+                "promo": ""
+            },
+            {
+                "name": "Jodie Turner-Smith",
+                "promo": "https://deadline.com/2021/12/bad-monkey-michelle-monaghan-jodie-turner-smith-meredith-hagner-vince-vaughn-bill-lawrence-apple-tv-plus-1234883593/"
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Rick Ross ft. Jazmine Sullivan",
+                "promo": "https://www.youtube.com/watch?v=imfiuRkn6WQ"
+            }
+        ]
     }
 ]
