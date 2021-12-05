@@ -26,6 +26,10 @@
             {
                 "name": "Chloë Grace Moretz",
                 "promo": "https://www.imdb.com/title/tt10054778/"
+            },
+            {
+                "name": "Nick Thune",
+                "promo": "https://www.imdb.com/title/tt1587420/"
             }
         ],
         "musicalGuests": [
@@ -46,6 +50,10 @@
             {
                 "name": "Raanan Hershberg",
                 "promo": "https://www.raananhershberg.com"
+            },
+            {
+                "name": "Úrsula Corberó",
+                "promo": "https://www.imdb.com/title/tt6468322/"
             }
         ],
         "musicalGuests": []
