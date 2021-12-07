@@ -1,25 +1,5 @@
 [
     {
-        "date": "20211206T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Jonah Hill",
-                "promo": ""
-            },
-            {
-                "name": "Tig Notaro",
-                "promo": ""
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Dan + Shay",
-                "promo": ""
-            }
-        ]
-    },
-    {
         "date": "20211207T233500-05:00",
         "isNew": true,
         "guests": [
@@ -99,6 +79,26 @@
             {
                 "name": "Rick Ross ft. Jazmine Sullivan",
                 "promo": "https://www.youtube.com/watch?v=imfiuRkn6WQ"
+            }
+        ]
+    },
+    {
+        "date": "20211213T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Dakota Johnson",
+                "promo": "https://www.imdb.com/title/tt9100054/"
+            },
+            {
+                "name": "Bobby Cannavale",
+                "promo": "https://www.imdb.com/title/tt14852808/"
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Kelly Clarkson",
+                "promo": ""
             }
         ]
     }
