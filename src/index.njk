@@ -37,12 +37,15 @@
     </head>
     <body>
         <article id="hero">
+            <a href="#snl">
+
             {% set snlWhen = snl[0].date | relativeDate %}
             {% if (snlWhen !== "tonight") or (snlWhen !== "tomorrow") %}
                 <h1>No new SNL tonight</h1>
             {% else %}
                 <h1>New SNL {{snlWhen}}</h1>
             {% endif %}
+            </a>
         </article>
         {% for show in [{"shortTitle": "snl", "longTitle": "Saturday Night Live", "data": snl, "url": "https://www.nbc.com/saturday-night-live"},{"shortTitle": "lnsm", "longTitle": "Late Night with Seth Meyers", "data": lnsm, "url": "https://www.nbc.com/late-night-with-seth-meyers"},{"shortTitle": "tsjf", "longTitle": "The Tonight Show with Jimmy Fallon", "data": tsjf, "url": "https://www.nbc.com/the-tonight-show"}] %}
             <article id="{{ show.shortTitle }}" aria-label="{{ show.longTitle }}">

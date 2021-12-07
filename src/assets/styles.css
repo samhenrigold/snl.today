@@ -1,5 +1,5 @@
 :root {
-    --tint: linear-gradient(90deg, rgb(0, 0, 0, .8) 40%, rgb(0, 0, 0, .15));
+    --tint: radial-gradient(ellipse at top right, transparent , black 70%);
 }
 
 body {
@@ -7,6 +7,7 @@ body {
     color: #eee;
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
     line-height: 1.5em;
+    scroll-behavior: smooth;
 }
 
 a { color: inherit; }
@@ -23,8 +24,9 @@ ul {
 }
 
 article {
-    background-size: cover;
-    background-position: top;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: top center;
     padding: 3rem 1rem;
     border-radius: 8px;
     max-width: 800px;
@@ -38,6 +40,34 @@ article {
   ;
 }
 
+details {
+    margin: 1.3rem 0;
+    /* border-bottom: 1px solid #aaa; */
+    padding: 0.5rem;
+    height: auto;
+    max-height: 1.5rem; /* set to line height */
+    transition: all 0.1s ease;
+  }
+  
+  details[open] {
+    max-height: 99rem;
+    transition: all 1s ease;
+    /* border: 1px solid #aaa; */
+  }
+  
+  details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+  
+  details[open] summary {
+    /* border-bottom: 1px solid #aaa; */
+    margin-bottom: 0.8em;
+  }
 footer {
     max-width: 800px;
     margin: 2rem auto 1rem;
@@ -48,6 +78,10 @@ footer {
     font-size: 4em;
     line-height: 1.5em;
     text-align: center;
+}
+
+#hero a {
+    text-decoration: none;
 }
 
 #sosumi { color: #999; }
@@ -66,8 +100,9 @@ article img {
 article img:hover { filter: invert(44%) sepia(71%) saturate(7498%) hue-rotate(210deg) brightness(100%) contrast(109%); }
 
 @media screen and (max-width: 543px) {
-    :root { --tint: linear-gradient(rgb(0, 0, 0, .65), rgb(0, 0, 0, .65)); }
-    article { padding: 2rem 1rem; }
+    article { padding: 2rem 1rem; background-position: top left; }
+    #snl { background-image: var(--tint), url('/assets/SNL_S44-Web-DynamicLead-Mobile-1114x891.jpg'); }
+    #lnsm { background-image: var(--tint), url('/assets/LNSM_S9-Web-DynamicLead-Mobile-1114x891.jpeg');}
     #tsjf { background-image: var(--tint), url('/assets/TonightShow-2021-Web-DynamicLead-Mobile-1114x891.jpg'); }
     #hero { font-size: 3em; }
 }

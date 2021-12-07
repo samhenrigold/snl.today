@@ -1,24 +1,5 @@
 [
     {
-        "date": "20211206T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Javier Bardem",
-                "promo": "https://www.imdb.com/title/tt4995540/"
-            },
-            {
-                "name": "Kimberly Williams-Paisley",
-                "promo": "https://www.imdb.com/title/tt6540706/"
-            },
-            {
-                "name": "Ashley Williams",
-                "promo": "https://www.imdb.com/title/tt6540706/"
-            }
-        ],
-        "musicalGuests": []
-    },
-    {
         "date": "20211207T235900-05:00",
         "isNew": true,
         "guests": [
