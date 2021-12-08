@@ -1,25 +1,5 @@
 [
     {
-        "date": "20211207T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Chloë Grace Moretz",
-                "promo": "https://www.imdb.com/title/tt10054778/"
-            },
-            {
-                "name": "Nick Thune",
-                "promo": "https://www.imdb.com/title/tt1587420/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Wizkid",
-                "promo": ""
-            }
-        ]
-    },
-    {
         "date": "20211208T233500-05:00",
         "isNew": true,
         "guests": [
@@ -98,6 +78,26 @@
         "musicalGuests": [
             {
                 "name": "Kelly Clarkson",
+                "promo": ""
+            }
+        ]
+    },
+    {
+        "date": "20211214T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Matthew McConaughey",
+                "promo": ""
+            },
+            {
+                "name": "Alana Haim",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Niko Moon",
                 "promo": ""
             }
         ]
