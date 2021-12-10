@@ -1,55 +1,8 @@
 [
     {
-        "date": "20211208T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Nicole Kidman",
-                "promo": "https://www.imdb.com/title/tt4995540/"
-            },
-            {
-                "name": "Raanan Hershberg",
-                "promo": "https://www.raananhershberg.com"
-            },
-            {
-                "name": "Úrsula Corberó",
-                "promo": "https://www.imdb.com/title/tt6468322/"
-            }
-        ],
-        "musicalGuests": []
-    },
-    {
-        "date": "20211209T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Miley Cyrus",
-                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
-            },
-            {
-                "name": "Pete Davidson",
-                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
-            },
-            {
-                "name": "Yahya Abdul-Mateen II",
-                "promo": "https://www.imdb.com/title/tt10838180/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Miley Cyrus",
-                "promo": "https://www.nbc.com/nbcs-new-years-eve-2021/about"
-            }
-        ]
-    },
-    {
         "date": "20211210T233500-05:00",
         "isNew": true,
         "guests": [
-            {
-                "name": "Dua Lipa",
-                "promo": ""
-            },
             {
                 "name": "Jodie Turner-Smith",
                 "promo": "https://deadline.com/2021/12/bad-monkey-michelle-monaghan-jodie-turner-smith-meredith-hagner-vince-vaughn-bill-lawrence-apple-tv-plus-1234883593/"
@@ -98,6 +51,46 @@
         "musicalGuests": [
             {
                 "name": "Niko Moon",
+                "promo": ""
+            }
+        ]
+    },
+    {
+        "date": "20211215T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Penélope Cruz",
+                "promo": ""
+            },
+            {
+                "name": "Kid Cudi",
+                "promo": ""
+            },
+            {
+                "name": "Joanna Stern",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": [
+        ]
+    },
+    {
+        "date": "20211216T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Scarlett Johansson",
+                "promo": ""
+            },
+            {
+                "name": "Bowen Yang",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Toni Cornell",
                 "promo": ""
             }
         ]

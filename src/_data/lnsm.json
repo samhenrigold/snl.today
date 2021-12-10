@@ -1,40 +1,5 @@
 [
     {
-        "date": "20211208T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Brian Cox",
-                "promo": "https://www.imdb.com/title/tt8310474/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Wet Leg",
-                "promo": "https://www.youtube.com/watch?v=Zd9jeJk2UHQ"
-            }
-        ]
-    },
-    {
-        "date": "20211209T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Tom Holland",
-                "promo": "https://www.imdb.com/title/tt10872600/"
-            },
-            {
-                "name": "Anna Konkle",
-                "promo": "https://www.imdb.com/title/tt8324422/"
-            },
-            {
-                "name": "Maya Erskine",
-                "promo": "https://www.imdb.com/title/tt8324422/"
-            }
-        ],
-        "musicalGuests": []
-    },
-    {
         "date": "20211213T235900-05:00",
         "isNew": true,
         "guests": [
@@ -43,8 +8,8 @@
                 "promo": "https://www.hollywoodreporter.com/lifestyle/arts/patti-lupone-company-previews-return-broadway-1235057283/"
             },
             {
-                "name": "Thandiwe Newton",
-                "promo": "https://www.imdb.com/title/tt13648222/"
+                "name": "James Acaster",
+                "promo": "https://www.imdb.com/title/tt13446472/"
             },
             {
                 "name": "Maya Erskine",
@@ -69,6 +34,41 @@
             {
                 "name": "David Baddiel",
                 "promo": "https://www.goodreads.com/en/book/show/52710961"
+            }
+        ],
+        "musicalGuests": []
+    },
+    {
+        "date": "20211215T235900-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Matthew McConaughey",
+                "promo": "https://www.imdb.com/title/tt6467266/"
+            },
+            {
+                "name": "Marisa Tomei",
+                "promo": "https://www.imdb.com/title/tt10872600/"
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Turnstile",
+                "promo": "https://en.wikipedia.org/wiki/Glow_On"
+            }
+        ]
+    },
+    {
+        "date": "20211216T235900-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Priyanka Chopra Jonas",
+                "promo": "https://www.imdb.com/title/tt10838180/"
+            },
+            {
+                "name": "Kyle Mooney",
+                "promo": "https://www.imdb.com/title/tt15977708/"
             }
         ],
         "musicalGuests": []
