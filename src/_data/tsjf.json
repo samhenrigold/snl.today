@@ -1,21 +1,5 @@
 [
     {
-        "date": "20211210T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Jodie Turner-Smith",
-                "promo": "https://deadline.com/2021/12/bad-monkey-michelle-monaghan-jodie-turner-smith-meredith-hagner-vince-vaughn-bill-lawrence-apple-tv-plus-1234883593/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Rick Ross ft. Jazmine Sullivan",
-                "promo": "https://www.youtube.com/watch?v=imfiuRkn6WQ"
-            }
-        ]
-    },
-    {
         "date": "20211213T233500-05:00",
         "isNew": true,
         "guests": [
@@ -91,6 +75,26 @@
         "musicalGuests": [
             {
                 "name": "Toni Cornell",
+                "promo": ""
+            }
+        ]
+    },
+    {
+        "date": "20211217T233500-05:00",
+        "isNew": true,
+        "guests": [
+            {
+                "name": "Reese Witherspoon",
+                "promo": ""
+            },
+            {
+                "name": "Mike Birbiglia",
+                "promo": ""
+            }
+        ],
+        "musicalGuests": [
+            {
+                "name": "Robert Plant and Alison Krauss",
                 "promo": ""
             }
         ]

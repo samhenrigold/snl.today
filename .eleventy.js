@@ -15,11 +15,11 @@ module.exports = (eleventyConfig) => {
         const now = DateTime.now();
         const future = DateTime.fromISO(dateObj, {zone: "America/New_York", locale: 'en-US'});
         const dayCount = Math.round(future.diff(now, ["days"]).toObject().days);
-        if (dayCount === 0) {
+        if (dayCount == 0) {
             return "today"
-        } else if (dayCount === 1) {
+        } else if (dayCount == 1) {
             return "tomorrow"
-        } else if (dayCount === -1) {
+        } else if (dayCount == -1) {
             return "yesterday"
         } else if (dayCount > 1) {
             return `in ${dayCount} days`
