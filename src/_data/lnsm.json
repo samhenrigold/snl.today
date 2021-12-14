@@ -1,25 +1,5 @@
 [
     {
-        "date": "20211213T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Patti LuPone",
-                "promo": "https://www.hollywoodreporter.com/lifestyle/arts/patti-lupone-company-previews-return-broadway-1235057283/"
-            },
-            {
-                "name": "James Acaster",
-                "promo": "https://www.imdb.com/title/tt13446472/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Joy Crookes",
-                "promo": "https://www.youtube.com/watch?v=3BUzRO6J4gE"
-            }
-        ]
-    },
-    {
         "date": "20211214T235900-05:00",
         "isNew": true,
         "guests": [

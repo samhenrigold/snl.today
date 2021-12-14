@@ -1,25 +1,5 @@
 [
     {
-        "date": "20211213T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Dakota Johnson",
-                "promo": "https://www.imdb.com/title/tt9100054/"
-            },
-            {
-                "name": "Bobby Cannavale",
-                "promo": "https://www.imdb.com/title/tt14852808/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Kelly Clarkson",
-                "promo": ""
-            }
-        ]
-    },
-    {
         "date": "20211214T233500-05:00",
         "isNew": true,
         "guests": [
