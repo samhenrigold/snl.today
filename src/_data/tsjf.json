@@ -1,82 +1,13 @@
 [
     {
-        "date": "20211214T233500-05:00",
+        "date": "20220103T235900-05:00",
         "isNew": true,
         "guests": [
             {
-                "name": "Matthew McConaughey",
-                "promo": ""
-            },
-            {
-                "name": "Alana Haim",
-                "promo": ""
+                
+                
             }
         ],
-        "musicalGuests": [
-            {
-                "name": "Niko Moon",
-                "promo": ""
-            }
-        ]
-    },
-    {
-        "date": "20211215T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Penélope Cruz",
-                "promo": ""
-            },
-            {
-                "name": "Kid Cudi",
-                "promo": ""
-            },
-            {
-                "name": "Joanna Stern",
-                "promo": ""
-            }
-        ],
-        "musicalGuests": [
-        ]
-    },
-    {
-        "date": "20211216T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Scarlett Johansson",
-                "promo": ""
-            },
-            {
-                "name": "Bowen Yang",
-                "promo": ""
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Toni Cornell",
-                "promo": ""
-            }
-        ]
-    },
-    {
-        "date": "20211217T233500-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Reese Witherspoon",
-                "promo": ""
-            },
-            {
-                "name": "Mike Birbiglia",
-                "promo": ""
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Robert Plant and Alison Krauss",
-                "promo": ""
-            }
-        ]
+        "musicalGuests": []
     }
 ]

@@ -1,50 +1,11 @@
 [
     {
-        "date": "20211214T235900-05:00",
+        "date": "20220103T235900-05:00",
         "isNew": true,
         "guests": [
             {
-                "name": "Will Forte",
-                "promo": "https://www.imdb.com/title/tt11621710/"
-            },
-            {
-                "name": "David Baddiel",
-                "promo": "https://www.goodreads.com/en/book/show/52710961"
-            }
-        ],
-        "musicalGuests": []
-    },
-    {
-        "date": "20211215T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Matthew McConaughey",
-                "promo": "https://www.imdb.com/title/tt6467266/"
-            },
-            {
-                "name": "Marisa Tomei",
-                "promo": "https://www.imdb.com/title/tt10872600/"
-            }
-        ],
-        "musicalGuests": [
-            {
-                "name": "Turnstile",
-                "promo": "https://en.wikipedia.org/wiki/Glow_On"
-            }
-        ]
-    },
-    {
-        "date": "20211216T235900-05:00",
-        "isNew": true,
-        "guests": [
-            {
-                "name": "Priyanka Chopra Jonas",
-                "promo": "https://www.imdb.com/title/tt10838180/"
-            },
-            {
-                "name": "Kyle Mooney",
-                "promo": "https://www.imdb.com/title/tt15977708/"
+                
+                
             }
         ],
         "musicalGuests": []
