@@ -1,17 +1,17 @@
 [
     {
-        "date": "20211218T233500-05:00",
+        "date": "20220129T233500-05:00",
         "isNew": true,
         "guests": [
             {
-                "name": "Paul Rudd",
-                "promo": "https://www.imdb.com/title/tt4513678/"
+                "name": "TBD",
+                "promo": ""
             }
         ],
         "musicalGuests": [
             {
-                "name": "Charli XCX",
-                "promo": "https://en.wikipedia.org/wiki/Crash_(Charli_XCX_album)"
+                "name": "TBD",
+                "promo": ""
             }
         ]
     }
