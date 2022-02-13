@@ -4,7 +4,7 @@
     "lang": "en-US",
     "start_url": "/",
     "display": "fullscreen",
-    "theme_color": "0982FF",
+    "theme_color": "#0982FF",
     "icons": [
       {
         "src": "/assets/apple-touch-icon.png",
